@@ -1,5 +1,5 @@
 // API Configuration
-const R2_PUBLIC_URL = import.meta.env.VITE_R2_PUBLIC_URL || 'https://media.dreamon.world'
+const R2_PUBLIC_URL = import.meta.env.VITE_R2_PUBLIC_URL || 'https://pub-370c354cd2ad4010a5a0176896dad4ad.r2.dev'
 
 // Types
 export interface Trip {

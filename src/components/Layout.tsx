@@ -18,13 +18,9 @@ export default function Layout() {
           <Link to="/" className="flex items-center gap-4 group">
             {/* Dream On Logo */}
             <img 
-              src="https://dreamon.world/dream-on-logo.png" 
+              src="https://dreamon.world/download.png" 
               alt="Dream On" 
-              className="h-12 w-auto"
-              onError={(e) => {
-                // Fallback if logo doesn't load
-                e.currentTarget.style.display = 'none';
-              }}
+              className="h-10 w-auto invert"
             />
             <div className="border-l border-white/20 pl-4">
               <span className="text-lg font-semibold text-white">
@@ -66,12 +62,9 @@ export default function Layout() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <img 
-                src="https://dreamon.world/dream-on-logo.png" 
+                src="https://dreamon.world/download.png" 
                 alt="Dream On" 
-                className="h-8 w-auto opacity-70"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
+                className="h-6 w-auto invert opacity-70"
               />
               <span className="text-gray-500 text-sm">
                 © {new Date().getFullYear()} Dream On Global

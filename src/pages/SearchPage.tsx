@@ -49,11 +49,14 @@ export default function SearchPage() {
     <div>
       {/* Header */}
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-          Search Media
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#F97316]/10 rounded-full text-[#F97316] text-sm font-medium mb-4">
+          <Sparkles className="w-4 h-4" /> AI-Powered Search
+        </div>
+        <h1 className="text-4xl font-bold mb-3 text-white">
+          Find Footage
         </h1>
         <p className="text-gray-400 max-w-xl mx-auto">
-          Find the perfect footage using AI-powered descriptions. Search by scene, activity, or mood.
+          Search Dream On's video archive by scene description, activity, location, or mood.
         </p>
       </div>
 

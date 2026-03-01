@@ -42,12 +42,15 @@ export default function BrowsePage() {
       <div>
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-            Mission Trip Archives
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#F97316]/10 rounded-full text-[#F97316] text-sm font-medium mb-6">
+            <span>🌍</span> Dream On Global Media Archive
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+            Mission Trip Footage
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-6">
-            Explore footage from Dream On's mission trips around the world. 
-            Search by location, year, or let AI help you find the perfect clip.
+            Explore video archives from Dream On's mission trips around the world. 
+            Search by location, year, or use AI to find the perfect clip for your project.
           </p>
           <div className="flex items-center justify-center gap-6 text-sm">
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-800/50 rounded-full">
